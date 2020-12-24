@@ -15,3 +15,44 @@ Homepage: http://www.emstone.com
 Description: Central Monitoring System
  Central Monitoring System for EMSTONE
 
+Package: i965-va-driver
+Source: intel-vaapi-driver
+Version: 2.1.0-1-0ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 7965
+Depends: libva-driver-abi-1.1, libc6 (>= 2.27), libdrm-intel1 (>= 2.4.46), libdrm2 (>= 2.3.1)
+Suggests: i965-va-driver-shaders
+Enhances: libva2
+Provides: va-driver
+Filename: ./i965-va-driver_2.1.0-1-0ubuntu2_amd64.deb
+Size: 933164
+MD5sum: 6ef9f39992dc4aeb70c927a662df3b90
+SHA1: 9309b2e4d14999ff549ffce466c45f557739cc34
+SHA256: f375ab915db9a71d404b7450b24e115618bf3bbeb156caa13bfded375e331ffc
+Section: multiverse/video
+Priority: optional
+Multi-Arch: same
+Homepage: https://01.org/linuxmedia/vaapi
+Description: VAAPI driver for Intel G45 & HD Graphics family
+ The VA-API (Video Acceleration API) enables hardware accelerated video
+ decode/encode at various entry-points (VLD, IDCT, Motion Compensation
+ etc.) for the prevailing coding standards today (MPEG-2, MPEG-4
+ ASP/H.263, MPEG-4 AVC/H.264, and VC-1/WMV3). It provides an interface
+ to fully expose the video decode capabilities in today's GPUs.
+ .
+ This package contains the video decode and encode driver backend for the
+ Intel G45 chipsets and Intel HD Graphics for the Intel Core processor family.
+ The supported platforms include:
+  * Cantiga, Intel GMA 4500MHD (GM45)
+  * Ironlake, Intel HD Graphics for 2010 Intel Core processor family
+  * Sandy Bridge, Intel HD Graphics for 2011 Intel Core processor family
+  * Ivy Bridge
+  * Haswell
+  * Broadwell
+  * Skylake
+  * Kaby Lake
+  * Coffee Lake
+  * Cannon Lake
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+
