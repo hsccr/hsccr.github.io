@@ -7,10 +7,10 @@ A PPA repository for my packages:
 # Usage
 
 ```bash
-curl -SsL https://www.emstone.com/data/ubuntu/KEY.gpg | sudo apt-key add -
-sudo curl -SsL -o /etc/apt/sources.list.d/emstone-sources.list https://www.emstone.com/data/ubuntu/emstone-sources.list
+curl -SsL https://hsccr.github.io/ubuntu/KEY.gpg | sudo apt-key add -
+sudo curl -SsL -o /etc/apt/sources.list.d/emstone.list https://hsccr.github.io/ubuntu/emstone.list
 sudo apt update
-sudo apt install joincap xioc sqlitequeryserver
+sudo apt install dvr-cms
 ```
 
 # Sources
